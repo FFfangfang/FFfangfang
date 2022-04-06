@@ -1,0 +1,20 @@
+#define  _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+
+void main()
+
+{
+
+	int a, b, c, max;//定义三个整数
+
+	scanf("%d%d%d", &a, &b, &c);//输入三个整数
+
+	max = a;
+
+	if (max < b) max = b;//将数与中间量比较
+
+	if (max < c) max = c;//将数与中间量比较
+
+	printf("max=%d\n", max);//输出结果
+
+}
